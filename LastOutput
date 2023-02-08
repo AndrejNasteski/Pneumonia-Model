@@ -1,0 +1,42 @@
+
+Training:
+2023-02-08 17:17:32.452064: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+
+Epoch 1/20
+326/326 [==============================] - 187s 563ms/step - loss: 0.3753 - accuracy: 0.8738 - precision: 0.8735 - recall: 0.8743 - val_loss: 0.9560 - val_accuracy: 0.5000 - val_precision: 0.5000 - val_recall: 0.5000
+Epoch 2/20
+326/326 [==============================] - 182s 557ms/step - loss: 0.2493 - accuracy: 0.9291 - precision: 0.9291 - recall: 0.9291 - val_loss: 0.8215 - val_accuracy: 0.5000 - val_precision: 0.5000 - val_recall: 0.5000
+Epoch 3/20
+326/326 [==============================] - 181s 555ms/step - loss: 0.2136 - accuracy: 0.9413 - precision: 0.9413 - recall: 0.9413 - val_loss: 0.4365 - val_accuracy: 0.6875 - val_precision: 0.6875 - val_recall: 0.6875
+Epoch 4/20
+326/326 [==============================] - 183s 560ms/step - loss: 0.2001 - accuracy: 0.9446 - precision: 0.9446 - recall: 0.9446 - val_loss: 0.8075 - val_accuracy: 0.6250 - val_precision: 0.6250 - val_recall: 0.6250
+Epoch 5/20
+326/326 [==============================] - 180s 553ms/step - loss: 0.1752 - accuracy: 0.9534 - precision: 0.9534 - recall: 0.9534 - val_loss: 0.5935 - val_accuracy: 0.6250 - val_precision: 0.6250 - val_recall: 0.6250
+Epoch 6/20
+326/326 [==============================] - 178s 545ms/step - loss: 0.1468 - accuracy: 0.9626 - precision: 0.9626 - recall: 0.9626 - val_loss: 0.2915 - val_accuracy: 0.8750 - val_precision: 0.8750 - val_recall: 0.8750
+Epoch 7/20
+326/326 [==============================] - 180s 552ms/step - loss: 0.1557 - accuracy: 0.9571 - precision: 0.9571 - recall: 0.9571 - val_loss: 0.1738 - val_accuracy: 0.9375 - val_precision: 0.9375 - val_recall: 0.9375
+Epoch 8/20
+326/326 [==============================] - 181s 555ms/step - loss: 0.1256 - accuracy: 0.9659 - precision: 0.9659 - recall: 0.9659 - val_loss: 0.2450 - val_accuracy: 0.9375 - val_precision: 0.9375 - val_recall: 0.9375
+Epoch 9/20
+326/326 [==============================] - 181s 555ms/step - loss: 0.1332 - accuracy: 0.9622 - precision: 0.9622 - recall: 0.9622 - val_loss: 0.7519 - val_accuracy: 0.6250 - val_precision: 0.6250 - val_recall: 0.6250
+Epoch 10/20
+326/326 [==============================] - 180s 552ms/step - loss: 0.1366 - accuracy: 0.9590 - precision: 0.9590 - recall: 0.9590 - val_loss: 0.4119 - val_accuracy: 0.8125 - val_precision: 0.8125 - val_recall: 0.8125
+Epoch 11/20
+326/326 [==============================] - 180s 554ms/step - loss: 0.1324 - accuracy: 0.9576 - precision: 0.9576 - recall: 0.9576 - val_loss: 0.2524 - val_accuracy: 0.9375 - val_precision: 0.9375 - val_recall: 0.9375
+Epoch 12/20
+326/326 [==============================] - 181s 554ms/step - loss: 0.1099 - accuracy: 0.9686 - precision: 0.9686 - recall: 0.9686 - val_loss: 0.5126 - val_accuracy: 0.6875 - val_precision: 0.6875 - val_recall: 0.6875
+
+
+Testing:
+39/39 [==============================] - 4s 79ms/step - loss: 0.3504 - accuracy: 0.8429 - precision: 0.8429 - recall: 0.8429
+Res: [0.35044294595718384, 0.8429487347602844, 0.8429487347602844, 0.8429487347602844]
+
+
+TN: 153
+FP: 81
+FN: 17
+TP: 373
+
+Recall of the model is 0.96
+Precision of the model is 0.82
